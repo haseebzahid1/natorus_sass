@@ -1,0 +1,63 @@
+
+
+
+
+// @include respond(tab-land-4)
+
+@mixin respond($breakpoint){
+    @if $breakpoint == zero-size{
+        @media (max-width: 480px) {@content}; //640px
+     }
+    @if $breakpoint == phones{
+       @media (max-width: 667px) {@content}; //667px
+    }
+  
+   
+    @if $breakpoint == phones-2{
+       @media (max-width: 767px) {@content}; //640px
+    }
+    @if $breakpoint == phones-1{
+        @media (max-width: 790px) {@content}; //640px
+     }
+    @if $breakpoint == phones-1-min{
+        @media (min-width: 790px) {@content}; //640px
+     }
+     @if $breakpoint == phones-3{
+        @media (max-width: 390px) {@content}; //640px
+     }
+    @if $breakpoint == tab-ports-1{
+        @media (max-width: 967px) {@content}; //900px
+    }
+   @if $breakpoint == tab-ports{
+       @media (max-width: 992px) {@content}; //900px
+   }
+  
+   @if $breakpoint == tab-lands{
+       @media (max-width: 1024px) {@content}; //1224px
+   }
+   @if $breakpoint == tab-lands-5{
+       @media (max-width: 1064px) {@content}; //1224px
+   }
+  
+   @if $breakpoint == tab-lands-6{
+       @media (max-width: 1239px) {@content}; //1224px
+   }
+   @if $breakpoint == tab-lands-4{
+       @media (max-width: 1279px) {@content}; //1224px
+   }
+ 
+   @if $breakpoint == tab-lands-1{
+       @media (max-width: 1339px) {@content}; //
+   }
+   @if $breakpoint == tab-lands-2{
+    @media (max-width: 1650px) {@content}; //
+}
+   @if $breakpoint == big-desktops{
+       @media (min-width: 112.5em) {@content}; //1800px
+   }
+   @if $breakpoint == big-desktop-mins{
+       @media (min-width: 1080px) {@content}; //1800px
+   }
+}
+
+

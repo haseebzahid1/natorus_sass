@@ -71,9 +71,12 @@
         display: inline-block;
         text-decoration: none;
         border-bottom: 1px solid $color-primary;
-        padding: 3px;
+        padding: 8px 16px;
+       
+        transition:  all 0.3s ease;
     }
     &:hover{
+        border-radius: 5px;
         background-color: $color-primary;
         color: $color-white;
         box-shadow: 0 1rem 2rem rgba($color-black, .15);
@@ -83,4 +86,16 @@
         box-shadow: 0 .5rem 1rem rgba($color-black, .15);
         transform: translateY(0);
     }
+}
+.btn-text-same{
+    &:link,
+    &:visited{
+        color: #fff;
+        border-bottom: 1px solid #fff;
+    }
+    &:hover{
+        background-color: white;
+        color: #3CCFF5;
+    }
+   
 }

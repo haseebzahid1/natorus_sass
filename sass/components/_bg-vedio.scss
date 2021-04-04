@@ -1,4 +1,5 @@
 .bg-vedio{
+
     position: absolute;
     top: 0;
     left: 0;
@@ -6,7 +7,7 @@
     width: 100%;
       z-index: -1;
      overflow: hidden;
-     opacity: 0.15;
+    //  opacity: 0.15;
     
      &__content{
          width: 100%;

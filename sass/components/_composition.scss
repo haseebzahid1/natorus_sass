@@ -10,7 +10,7 @@
         position: absolute;
         transition: all .2s;
         z-index: 10;
-        outline-offset: 1rem;
+        outline-offset: 0.5rem;
 
         @include respond(tab-port){
             position: relative;
@@ -49,11 +49,12 @@
                  transform: scale(1.2);
             }
         }
+        //////////////////////
         &:hover{
              transform: scale(1.05) translateY(-.5rem);
             box-shadow: 0 2.5rem 4rem rgba($color-black, .5);
             z-index: 20;
-             outline: 1.5rem solid $color-primary;
+             outline: 0.5rem solid $color-primary;
         }
     }
     &:hover &___photo:not(:hover){
@@ -61,3 +62,4 @@
     }
     //composition:hover composition__photo:not(:hover)
 }
+
