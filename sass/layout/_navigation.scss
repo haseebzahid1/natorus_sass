@@ -98,21 +98,21 @@
             height: 100vh;
             display: block;
             background-color: #2da6fd;
-            
+            padding-top: 2rem;
         }
         &__nav-item{
             padding-left: 3rem;
                 border-bottom: 1px solid black;
             
-            &:first-child{
-                border-top: 1px solid black;
+            // &:first-child{
+            //     border-top: 1px solid black;
                 
-            }
+            // }
         }
         &__nav-link{
             // border: 1px solid red;
             width: 100%;
-            line-height: 50px;
+            line-height: 40px;
         }
        
         

@@ -99,15 +99,14 @@ $breakpoint arguement choices:
     max-width: 350px;
     height: 100vh;
     display: block;
-    background-color: #2da6fd; }
+    background-color: #2da6fd;
+    padding-top: 2rem; }
   .nav__nav-item {
     padding-left: 3rem;
     border-bottom: 1px solid black; }
-    .nav__nav-item:first-child {
-      border-top: 1px solid black; }
   .nav__nav-link {
     width: 100%;
-    line-height: 50px; }
+    line-height: 40px; }
   .d3-btn {
     position: relative; }
     .d3-btn, .d3-btn:before, .d3-btn:after {
@@ -698,7 +697,6 @@ body {
     transform: translate(-50%, -50%); }
 
 .bg-vedio {
-  background-image: linear-gradient(to right bottom, rgba(0, 204, 255, 0.568), rgba(0, 204, 255, 0.712));
   position: absolute;
   top: 0;
   left: 0;
